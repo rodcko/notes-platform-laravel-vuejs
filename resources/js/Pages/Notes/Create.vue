@@ -47,6 +47,12 @@
                                     Crear
                                 </button>
                             </form>
+
+                            <hr class="my-6" />
+
+                            <inertia-link :href="route('notes.index')">
+                                Volver
+                            </inertia-link>
                         </div>
                     </div>
                 </div>

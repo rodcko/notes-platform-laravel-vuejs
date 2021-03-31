@@ -53,6 +53,12 @@
                             <a href="#" @click.prevent="destroy">
                                 Eliminar Nota
                             </a>
+
+                            <hr class="my-6" />
+
+                            <inertia-link :href="route('notes.index')">
+                                Volver
+                            </inertia-link>
                         </div>
                     </div>
                 </div>
